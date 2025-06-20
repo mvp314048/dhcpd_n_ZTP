@@ -1,4 +1,4 @@
-# This is the DHCP config and ZTP script files.
+# There are the config files for running DHCP and ZTP on the same server.
 Simply use 'isc-dhcp-server' and 'Python3' to enable DHCP and HTTP services on the server. 
 
 To run this config with providing DHCP option to Cumulus Linux devices, please don't forget to put in the following string "option cumulus-provision-url code 239 = text;" in the DHCP config, as the following:
